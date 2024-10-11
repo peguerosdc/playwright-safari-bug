@@ -1,6 +1,7 @@
 import { test, expect } from "@playwright/test";
 
-test("can click button", async ({ page }) => {
+test("can click button", async ({ page, browser }) => {
+  console.log(browser.version());
   await page.goto("/");
   await page.getByText("Agregar").click();
   await page
