@@ -126,7 +126,6 @@ function Element() {
             id=":r3:-form-item"
             aria-describedby=":r3:-form-item-description"
             aria-invalid="false"
-            value=""
             name="education.0.school"
           />
         </div>
@@ -142,7 +141,6 @@ function Element() {
             id=":r4:-form-item"
             aria-describedby=":r4:-form-item-description"
             aria-invalid="false"
-            value=""
             name="education.0.title"
           />
         </div>
@@ -159,7 +157,6 @@ function Element() {
               id=":r5:-form-item"
               aria-describedby=":r5:-form-item-description"
               aria-invalid="false"
-              value=""
               name="education.0.certificateNumber"
             />
           </div>
@@ -193,9 +190,9 @@ export default function Home() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="lucide lucide-check h-4 w-4"
             >
               <path d="M20 6 9 17l-5-5"></path>
@@ -256,9 +253,9 @@ export default function Home() {
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 className="lucide lucide-plus"
               >
                 <path d="M5 12h14"></path>
